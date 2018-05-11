@@ -1,0 +1,13 @@
+숫자가 낮을수록 레이어 순위가 낮고, 레이어 숫자가 높을 수록 순위가 높다
+
+GetComponent<SpriteRenderer>().sortingOrder			sortingOrder는 sorting Layer내의 Oder In Layer를 참조
+
+
+
+===== FindGameObjectsWithTag()에 인수 2개를 쓰는 방법 =================
+
+ GameObject[] tag_1 = GameObject.FindGameObjectsWithTag("tag1");  
+ 
+ GameObject[] tag_2 = GameObject.FindGameObjectsWithTag("tag2");  
+ 
+ GameObject[] final_array = tag_1.Concat(tag_2).ToArray();
