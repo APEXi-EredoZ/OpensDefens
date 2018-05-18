@@ -235,21 +235,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Arrow.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
-    <Compile Include="Assets\Scripts\Click.cs" />
     <Compile Include="Assets\Scripts\CountDown.cs" />
-    <Compile Include="Assets\Scripts\EnemyTurret.cs" />
-    <Compile Include="Assets\Scripts\EnemyWall.cs" />
-    <Compile Include="Assets\Scripts\KingEnemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager\Arrow.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager\EnemyTurret.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager\EnemyWall.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager\KingEnemy.cs" />
     <Compile Include="Assets\Scripts\Line.cs" />
+    <Compile Include="Assets\Scripts\OldCode\Click.cs" />
+    <Compile Include="Assets\Scripts\OldCode\Player.cs" />
+    <Compile Include="Assets\Scripts\OldCode\Test.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager\Bowman.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager\ClickManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager\Knight.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager\UsedAbility.cs" />
     <Compile Include="Assets\Scripts\SeeLevel.cs" />
     <Compile Include="Assets\Scripts\SingleTon.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Scripts\TimeCount.cs" />
-    <Compile Include="Assets\Scripts\UsedAbility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\메모장\Oder in Layer.txt" />

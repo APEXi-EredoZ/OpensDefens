@@ -10,6 +10,7 @@ TagManager:
   - Middle
   - EnemyWall
   - Manager
+  - Arrow
   layers:
   - Default
   - TransparentFX
@@ -21,11 +22,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - PlayerUnit
-  - EnemyUnit
+  - Pause
   - 
   - 
   - 
@@ -33,6 +30,10 @@ TagManager:
   - 
   - 
   - 
+  - 
+  - Player UI
+  - Skill BackGround
+  - Spwan BackGround
   - 
   - 
   - 
@@ -46,4 +47,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UpPosition
+    uniqueID: 2632357365
+    locked: 0
+  - name: MiddlePosition
+    uniqueID: 2770623829
+    locked: 0
+  - name: DownPosition
+    uniqueID: 18534723
+    locked: 0
+  - name: PlayerPos
+    uniqueID: 1713405535
+    locked: 0
+  - name: UILayer
+    uniqueID: 270226839
     locked: 0
